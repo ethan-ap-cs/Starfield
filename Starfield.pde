@@ -1,26 +1,34 @@
-//your code here
+
 void setup()
 {
-	//your code here
+	
 }
-void draw()
-{
-	//your code here
+void draw(){
+	
 }
-class NormalParticle
-{
-	//your code here
+class NormalParticle implements Particle{
+	double myX, myY, myAngle, mySpeed;
+	int myColor;
+	NormalParticle(){
+		myX = 320;
+		myY = 240;
+		myAngle = Math.random() * 2 * Math.PI;
+		mySpeed = Math.random() * 10;
+	}
+	public void move{
+
+	}
+	public void show{
+		
+	}
 }
-interface Particle
-{
-	//your code here
+interface Particle{
+	
 }
-class OddballParticle //uses an interface
-{
-	//your code here
+class OddballParticle implements Particle{
+	
 }
-class JumboParticle //uses inheritance
-{
-	//your code here
+class JumboParticle extends NormalParticle{
+	
 }
 

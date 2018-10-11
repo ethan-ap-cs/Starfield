@@ -1,6 +1,5 @@
 
-void setup()
-{
+void setup(){
 	
 }
 void draw(){
@@ -19,7 +18,7 @@ class NormalParticle implements Particle{
 
 	}
 	public void show{
-		
+		ellipse(myX, myY, 10, 10);
 	}
 }
 interface Particle{
